@@ -1,0 +1,194 @@
+/* Style CSS */
+
+/* This css created by @EvilUnion322
+    Dont forget to Subscribe my channel - GGWP */
+
+
+
+/* Navbar-brand */
+
+.navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url('../img/Jumbotron-BG.jpg');
+    background-size: cover;
+    height: 540px; 
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align : center;
+    margin-top: 125px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    font-size: 45px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/* About Us */
+
+.about h3{
+    font-family: 'Roboto Slab', serif;
+    color: #ffc107;
+}
+
+.about p {
+    margin-top: 20px;
+}
+
+ /* Service */
+
+.service h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.service h3 {
+    text-align: center;
+    font-family: 'Roboto Slap', serif;
+    color: #ffc107;
+
+}
+
+.service h5 {
+    font-family: 'Roboto Slap', serif;
+    color: #ffc107;
+}
+
+/* Porfolio */
+
+.portfolio-gallery {
+    width: 100%;
+}
+
+.portfolio-gallery img {
+    width: 100%;
+}
+
+/* Fatcs */
+
+.header-fatcs {
+    margin-top: 75px;
+}
+
+.header-fatcs h3 {
+    font-family: 'Roboto Slap', serif;
+    color: #ffc107;
+    text-align: center;
+}
+
+.header-fatcs h2 {
+    text-align: center;
+}
+
+.text-fatcs {
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.text-fatcs h2 {
+    color: #ffc107;
+    font-family: 'Roboto Slap', serif;
+    font-size: 50px;
+    border-radius: 30px;
+    border-color: #ffc107;
+    border-width: 10px;
+}
+
+/* Profile */  
+
+.profile {
+    margin-top: 75px;
+}
+
+.profile img {
+    border-radius: 10px;
+}
+
+.profile h2 {
+    font-family: 'Roboto Slap', serif;
+    color: #ffc107;
+}
+
+/* Contact */
+
+.contact {
+    margin-top: 100px;
+}
+
+/* footer */
+
+footer {
+    background-color: #ffc107;
+    margin-top: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* Utilitie */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+
+/* For Desktop version only  */
+@media (min-width: 992px) {
+
+    /* Navbar */
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 28px;
+    }  
+    
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #ffc107;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* Jumbotron */
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    /* About Us */
+    .about-us {
+        margin-top: 100px;
+    }
+
+
+
+
+
+}
